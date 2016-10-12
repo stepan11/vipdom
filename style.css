@@ -7,7 +7,17 @@
     display: inline-block;
 }
 
-.col-lg-4 {
+.col-lg-4{
     height: 200px;
     background: #605f5f;
+}
+
+.item img{
+    max-width: 100%;
+    max-height: 1050px;
+    position: inherit;
+}
+
+@media screen and (max-width:1680px) {
+    
 }
