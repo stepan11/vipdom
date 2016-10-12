@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="vipdom/normalize.css/normalize.css">    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -14,7 +14,75 @@
         
     </head>
     <body>
+    <div id="carousel" class="carousel slide">
+<!--        Indicatori-->
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide="1"></li>
+            <li data-target="#carousel" data-slide="2"></li>
+        </ol>
+        
+<!--        Slaydi-->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="vipdom/wallpapers_28549.jpg" alt="1">
+                <div class="carousel-caption">
+                    <h3>The first slide</h3>
+                    <p>Desription of the first slide</p>
+                </div>
+            </div>
+            <div class="item">
+               <img src="vipdom/wallpapers_28549.jpg" alt="2">
+                <div class="carousel-caption">
+                    <h3>The first slide</h3>
+                    <p>Desription of the first slide</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="vipdom/wallpapers_28549.jpg" alt="3">
+                <div class="carousel-caption">
+                <h3>The first slide</h3>
+                <p>Desription of the first slide</p>
+                </div>
+            </div>
+        </div>
+        
+<!--        Strelki slaydov-->
+        <a href="#carousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        
+        <a href="#carousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div>
     
+    <div class="container">
+        <div class="row">
+           <h1>VIPDOM</h1>
+            <div class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu" >
+                        <span class="sr-only">Open navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>    
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="responsive-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Yeah`1</a></li>
+                            <li><a href="#">Yeah`2</a></li>
+                            <li><a href="#">Yeah`3</a></li>
+                            <li><a href="#">Yeah`4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6"></div>
@@ -36,9 +104,9 @@
         </div>
     </div>
     </div>
-    
-    
-    
+    <footer class="navbar-inverse navbar-fixed-bottom">
+        <h1>footer</h1>
+    </footer>
     
     
     
